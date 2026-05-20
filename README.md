@@ -2,7 +2,7 @@
 
 Telekom müşterilerinin şirketten ayrılıp ayrılmayacağını tahmin eden bir **ikili sınıflandırma** projesi. Veri keşfi, özellik mühendisliği, klasik makine öğrenmesi, derin öğrenme ve ağırlıklı ensemble harmanlama adımlarını içerir.
 
-Ana çalışma defteri: `[ChurnClassification.ipynb](ChurnClassification.ipynb)`
+Ana çalışma defteri: `ChurnClassification.ipynb`
 
 ---
 
@@ -44,8 +44,8 @@ Veri seti **dengesizdir**: eğitim kümesinde yaklaşık **4.139** kalan ve **1.
 ```
 .
 ├── ChurnClassification.ipynb    # Ana notebook (EDA → model → submission)
-├── train.csv
-├── test.csv
+├── train.csv                    # Eğitim Verisi
+├── test.csv                     # Test Verisi
 └── submission.csv               # Ağırlıklı ensemble tahminleri
 ```
 
